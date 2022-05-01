@@ -14,6 +14,6 @@ Crear base de datos llamada prueba_epayco, importar el SQL File prueba_epayco.sq
 - 3.1 Ingrese a la carpeta /rest/LaravelRest y ejecute `composer install`
 - 3.2 Configure el archivo .env, o sencillamente copie el contenido de .env.example en .env
 - 3.3 (Opcional) Si el soap se está ejecutando en un host diferente al paso 2.3 entonces debes modificar la variable de entorno URL_SERVICES=
-- 3.4 Dentro de la carpeta /rest/LaravelRest ejecute `php artisan serve`, si cambias el host y/o el puerto debes cambiarlo en los archivos de configuracion del SOAP (por el SMTP)
+- 3.4 Dentro de la carpeta /rest/LaravelRest ejecute `php artisan serve`, si cambias el host y/o el puerto debes cambiarlo en los archivos de configuracion del SOAP (por el link que se generar en el correo electronico)
 
 Puedes visitar la documentación de la API Rest Laravel en http://localhost:8000/docs
